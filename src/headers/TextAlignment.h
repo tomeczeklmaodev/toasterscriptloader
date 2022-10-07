@@ -12,6 +12,8 @@
 	void GetConsoleDimensionsUNIX();
 #endif
 
+// TODO: make pageWidth refresh on every console window resize to make everything feel dynamic and not hardcoded
+// That would be: if screen size changes, compare old size to new, if new larger/smaller redraw everything and put the new size into variable oldwindowsz (idk lol)
 const int pageWidth = 120;
 typedef std::list<std::string> WordList;
 typedef void (*PrintLineFunction)(const std::string);
