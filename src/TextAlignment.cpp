@@ -1,6 +1,6 @@
 #include "headers/TextAlignment.h"
 
-#if defined(_WIN32)
+#if defined(_WIN32) // Windows 32-bit; Windows 64-bit
 	#include <windows.h>
 	#include <stdio.h>
 	void GetConsoleDimensionsWIN32()
@@ -15,7 +15,7 @@
 		printf("Console columns (width): %d\n", columns);
 		printf("Console rows (height): %d\n", rows);
 	}
-#elif defined(unix)
+#elif defined(unix) // Linux 64-bit
 	#include <sys/ioctl.h>
 	#include <stdio.h>
 	#include <unistd.h>

@@ -1,8 +1,10 @@
 #pragma once
 
 #include <ostream>
-namespace Color {
-    enum Code {
+namespace Color
+{
+    enum Code
+	{
         FG_DEFAULT = 39,
         FG_BLACK = 30,
         FG_RED = 31,
@@ -25,7 +27,8 @@ namespace Color {
         BG_BLUE = 44,
         BG_DEFAULT = 49
     };
-    std::ostream& operator<<(std::ostream& os, Code code) {
+    std::ostream& operator<<(std::ostream& os, Code code)
+	{
         return os << "\033[" << static_cast<int>(code) << "m";
     }
 }

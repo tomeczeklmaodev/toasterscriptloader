@@ -7,8 +7,7 @@
 int main(int argc, char const *argv[])
 {
 	// Basic things like CMD title
-	std::string WindowTitleConsole = "[DEVELOPER BUILD] Toaster Script Loader " + SL_VERSION;
-	SetConsoleTitleA(WindowTitleConsole.c_str()); // I'll remove the '[DEVELOPER BUILD]' prefix dw; converting to LPCSTR from std::string
+	SetConsoleTitleA(("Toaster Script Loader " + SL_STR::VERSION).c_str()); // Converting to LPCSTR from std::string
 
 	// The next 3 lines are used only to tell the size of the console window. Will be removed later.
 	std::cout << "Width: " << pageWidth << std::endl;
@@ -16,9 +15,9 @@ int main(int argc, char const *argv[])
 	std::cout << std::endl << std::endl;
 
 	// Header text, static, only version changes.
-	PrintText("[TEST BUILD] Toaster Script Loader " + SL_VERSION, Alignment::Center); std::cout << std::endl;
-	PrintText("Repository: " + SL_LOADER_REPO, Alignment::Center); std::cout << std::endl;
-	PrintText("Script source: " + SL_SCRIPT_SRC, Alignment::Center); std::cout << std::endl;
+	PrintText("Toaster Script Loader " + SL_STR::VERSION + " (" + SL_STR::CORE + " " + SL_STR::CORE_VERSION + ")", Alignment::Center); std::cout << std::endl;
+	PrintText("Repository: " + SL_STR::LOADER_REPO, Alignment::Center); std::cout << std::endl;
+	PrintText("Script source: " + SL_STR::SCRIPT_SRC, Alignment::Center); std::cout << std::endl;
 
 	// Testing colors (Colormod.h)
 	std::cout << std::endl;
