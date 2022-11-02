@@ -19,10 +19,10 @@
 //============================================================
 namespace SL_STR
 {
-	std::string CORE         = "Flashpoint"; // Core/Loader name
+	std::string CORE         = "Valkyrie"; // Core/Loader name
 	std::string CORE_VERSION = "0.1-dev";
 	std::string VERSION      = "0.1-dev";
 	std::string LOADER_REPO  = "https://github.com/tomeczeklmaodev/toasterscriptloader/";
 	std::string SCRIPT_SRC   = "tomeczeklmaodev/scripts/"; // This repository does not exist, will be created later
-	std::string SCRIPT_EXT   = "slx"; // File extension for scripts
-} // Why the fuck did I create a namespace for those strings?
+	std::string SCRIPT_EXT   = "vslx"; // File extension for scripts
+}
