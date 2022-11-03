@@ -44,6 +44,6 @@ int main(int argc, char const *argv[])
 // ResizeEventProc, will be useful to make screen buffer update dynamically to window resize; here temporarily
 void ResizeEventProc(WINDOW_BUFFER_SIZE_RECORD wbsr)
 {
-    printf("Resize event\n");
-    printf("Console screen buffer is %d columns by %d rows.\n", wbsr.dwSize.X, wbsr.dwSize.Y);
+    std::cout << "Resize event\n";
+    std::cout << "Console screen buffer is " << wbsr.dwSize.X << " columns by " << wbsr.dwSize.Y << " rows.\n";
 }
