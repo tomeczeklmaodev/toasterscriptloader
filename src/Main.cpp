@@ -40,3 +40,10 @@ int main(int argc, char const *argv[])
 	getchar();
 	return 0;
 }
+
+// ResizeEventProc, will be useful to make screen buffer update dynamically to window resize; here temporarily
+void ResizeEventProc(WINDOW_BUFFER_SIZE_RECORD wbsr)
+{
+    printf("Resize event\n");
+    printf("Console screen buffer is %d columns by %d rows.\n", wbsr.dwSize.X, wbsr.dwSize.Y);
+}
