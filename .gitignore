@@ -1,0 +1,2 @@
+# ignore websrc directory, because it contains source for website
+websrc/
