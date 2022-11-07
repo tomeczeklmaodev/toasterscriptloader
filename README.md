@@ -7,13 +7,15 @@ Script manager, Terminal UI (text based), scripts pulled from tomeczeklmaodev/sc
 Full description coming later.
 
 ### TODO
-* [NO] Add option selection using keyboard
-* [NO] Make buffer size update dynamically to window size, so the text alignment won't look hardcoded
-* [NO] Create arguments
-* [NO] Fix Makefile so I don't have to hardcode every source file into it :(
-* [OK] Make README look better
-* [NO] Create a website for this project
-* [NO] Add gifs and images to README
+
+- [x] Make README look better
+- [x] Prepare a list of features
+- [ ] Add option selection using keyboard
+- [ ] Make buffer size update dynamically, so the text alignment won't look hardcoded
+- [ ] Create arguments
+- [ ] Fix Makefile so I don't have to hardcode every source file into it
+- [ ] Create a website for this project
+- [ ] Add gifs and images to README
 
 ## Getting Started
 

@@ -1,0 +1,14 @@
+--- FEATURE LIST NOT FINAL!!! THIS LIST WILL BE EXTENDED AS DEVELOPMENT GOES ON ---
+
+Keyboard controlled menu (vtsl_kbcontrolledmenu)
+Program arguments (vtsl_programargs)
+	about (vtsl_programargs_about)
+	addscript (vtsl_programargs_addscript)
+	rmscript (vtsl_programargs_rmscript)
+	settings (vtsl_programargs_settings)
+	update (vtsl_programargs_update)
+		scriptloader (vtsl_programargs_update_scriptloader)
+		scripts (vtsl_programargs_update_scripts)
+	help (vtsl_programargs_help)
+Script Execution Scheduler (vtsl_scriptexecschd) [thanks DenKisil for the idea! https://github.com/denkisil]
+Script Executor (vtsl_scriptexec)
