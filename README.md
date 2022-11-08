@@ -16,6 +16,8 @@ Full description coming later.
 - [ ] Fix Makefile so I don't have to hardcode every source file into it
 - [ ] Create a website for this project
 - [ ] Add gifs and images to README
+- [ ] Add Linux support
+- [ ] Add macOS support
 
 ## Getting Started
 
